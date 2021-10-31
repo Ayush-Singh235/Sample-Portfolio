@@ -1,0 +1,215 @@
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    height: 34px;
+    line-height: 34px;
+    background-color:chocolate;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    float: left;
+    border-right: 2px solid #000;
+}
+
+a{
+    display:block;
+    padding: 0 135px;
+    text-decoration: none;
+    color:maroon;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: #000 ;
+}
+
+#home{
+    width:100%;
+    height: 100vh;
+    background-color: darkslategray;
+}
+
+.images{
+    margin-top: 25%;
+    margin-left: 3%;
+    margin-top:2%;
+    margin-right: 2%;
+}
+
+.detail{
+    font-family: century;
+    font-size: 2rem;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.detail h1{
+    color:goldenrod;
+}
+
+.detail p{
+    color:firebrick;
+}
+
+/* About Section */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    width:100%;
+    height: 100vh;
+    background-color: darkslategray;
+
+}
+
+.about-icon h2{
+    text-align: center;
+    font-family: sans-serif ;
+    font-weight: bold;
+    font-size: 40px;
+    color: orangered;
+}
+
+.home-content{
+    padding: 10px;
+    text-align: justify;
+}
+
+.home-content h3{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    color: white;
+}  
+
+.home-content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight:bold;
+    color: black;
+}
+
+/* Skills Section */
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    width:100%;
+    height: 100vh;
+    background-color: darkslategray;
+}
+
+.skill-icon h2{
+    text-align: center;
+    font-family: sans-serif ;
+    font-weight: bold;
+    font-size: 40px;
+    color: orangered;
+}
+
+.skills-content{
+    padding: 10px;
+    text-align: justify;
+}
+
+.skills-content h3{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    color: white;
+}  
+
+.skills-content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.s-images{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.s-images img{
+    width:320px;
+    height: 240px;
+    margin: 7px;
+}
+
+.skills-content1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* Contact Section */
+
+.contact-icon h2{
+    text-align: center;
+    font-family: sans-serif ;
+    font-weight: bold;
+    font-size: 40px;
+    color: orangered;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    width:100%;
+    height: 100vh;
+    background-color: darkslategray;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 14px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#message{
+    width: 20%;
+    padding: 12px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send{
+    padding: 10px;
+    width: 10px;
+    margin: 25px;
+    border: none;
+    outline: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: #000;
+}
